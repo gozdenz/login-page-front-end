@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;  
+    font-family:'Times New Roman', Times, serif;
+    color:black; /*yazilarin rengi*/
+}
+body{
+    display:grid;
+    place-items: center;
+    height: 80%;
+    background-image: url(sea-g537b50feb_1920.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#subscription{ /*form*/
+    width: 480px;
+    height: 100%;
+    margin: auto;
+    padding: 20px 50px 20px 30px;
+    background-color:white;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+.title{
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.input_name{
+    margin:20px 0;
+    width: 100%;
+    color: black;
+}
+.input_name label{
+    width: 100%;
+    font-size: 24px;
+
+}
+.input_name input{
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    font-size: 22px;
+    display: block;
+    border-color: darkgrey;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style:groove;
+
+}
+
+@media only screen and (max-width:400px){}
+
+.input_name span{
+    font-size: 22px;
+    color: red;
+    
+}
+.button{
+    width: 160px;
+    padding: 0 5px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 20px;
+}

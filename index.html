@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="subscription">
+        <div class="title">
+            <br><h2>SUBSCRIPTION</h2><br><br>
+        </div>
+        <!--username-->
+        <div class="input_name">
+            <label for="username">ID </label><br>
+            <input type="text" id="username" placeholder="abcd8" onkeyup="kontrolID()">
+            <span id="id-error"></span>
+        <!--password-->
+        <div class="input_name">
+            <label for="password">Password </label><br>
+            <input type="password" id="password" placeholder="*****" onkeyup="kontrolPassword()">
+            <span id="password-error"></span>
+        </div>
+        <!--name-->
+        <div class="input_name">
+            <label for="name">Name </label><br>
+            <input type="text" id="name" placeholder="name" onkeyup="kontrolName()">
+            <span id="name-error"></span>
+        </div>
+        <!--Surname-->
+        <div class="input_name">
+            <label for="surname">Surname </label><br>
+            <input type="text" id="surname" placeholder="surname" onkeyup="kontrolSurname()">
+            <span id="surname-error"></span>
+        </div>
+        <!--PhoneNumber-->
+        <div class="input_name">
+            <label for="number">Phone Number </label><br>
+            <input type="tel" id="number" placeholder="5*********" onkeyup="kontrolPhone()">
+            <span id="phone-error"></span>
+        </div>
+        <!--email-->
+        <div class="input_name">
+            <label for="email">Email </label><br>
+            <input type="text" id="email" placeholder="abc@abc.com" onkeyup="kontrolEmail()">
+            <span id="email-error"></span>
+        </div>
+        <!--SubmitButton-->
+        <br><br><br>
+        <center><button type="submit" class="button" onclick="return kontrolForm()">SUBMIT</button></center><br>
+        <center><span id="submit-error"></span></center>
+
+    </form>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
